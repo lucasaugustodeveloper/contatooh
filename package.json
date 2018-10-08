@@ -4,7 +4,8 @@
   "description": "Desenvolvedor um CRUD de Contatos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint app/**/*"
   },
   "keywords": [
     "Node.JS",
@@ -12,5 +13,14 @@
     "Express"
   ],
   "author": "Lucas Augusto",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.8.8"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint_d": "^7.1.1"
+  }
 }
