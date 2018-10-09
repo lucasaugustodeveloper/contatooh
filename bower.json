@@ -1,0 +1,25 @@
+{
+  "name": "bookMeanStack",
+  "description": "Desenvolvedor um CRUD de Contatos",
+  "main": "index.js",
+  "authors": [
+    "Lucas Augusto"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Node.JS",
+    "JavaScript",
+    "Express"
+  ],
+  "homepage": "https://github.com/laugustofrontend/contatooh",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.20"
+  }
+}
