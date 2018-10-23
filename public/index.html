@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Contatooh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap/css/bootstrap-theme.min.css">
 </head>
-<body data-ng-controller="ContatosController">
-    <h1>Bem-vindo ao Contatooh</h1>
+<body>
+    <div data-ng-view class="container"></div>
 
-    <button type="button" data-ng-click="incrementa()">Novo</button>
-    <p>Contatos cadastrados: {{ total }}</p>
-
-    <script src="vendor/angular/angular.js"></script>
+    <script src="js/vendor/angular/angular.js"></script>
+    <script src="js/vendor/angular/angular-route.js"></script>
+    <script src="js/vendor/angular/angular-resource.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/controllers/ContatosController.js"></script>
     <script src="js/controllers/ContatoController.js"></script>
 </body>
 </html>
