@@ -22,7 +22,7 @@
     "bootstrap": "^3.4.1",
     "express": "^4.16.0",
     "express-load": "^1.1.16",
-    "method-override": "^2.3.10"
+    "method-override": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^5.6.1",
